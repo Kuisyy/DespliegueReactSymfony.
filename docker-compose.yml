@@ -34,7 +34,7 @@ services:
       dockerfile: DockerfileWebLMH
     container_name: webLMH
     ports:
-      - "80:80" # Si tienes problemas con el puerto 80, cámbialo aquí
+      - "8080:80" # Si tienes problemas con el puerto 80, cámbialo aquí
     networks:
       - redwebLMH
 
